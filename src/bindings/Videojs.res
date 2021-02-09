@@ -1,9 +1,12 @@
 type t
 
+type pluginsOptions = {mux: Mux.options}
+
 type playerOptions = {
   autoplay: bool,
   controls: bool,
   fluid: bool,
+  // plugins: pluginsOptions,
 }
 
 @module("video.js")
